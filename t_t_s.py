@@ -18,6 +18,14 @@ root.title("Test_to_speech")
 #set the size of the main window
 root.geometry("485x225")
 
+#set the smallest size of window
+
+root.maxsize(485,225)
+
+#set the biggest size of window
+
+root.minsize(485,225)
+
 #background color for the main window 
 root.config(bg="#99042e")
 
